@@ -99,3 +99,6 @@ video.derecha{
   float:right;
   margin-right: 5%;
 }
+p.central{
+  text-align: center;
+}
