@@ -18,7 +18,7 @@ p{
   width: 50%;
   margin-left: 25%;
   margin-right: 25%;
-  height: 2000px;
+  height: 1200px;
 }
 
 body {
@@ -30,8 +30,7 @@ body {
 }
 
 img.central{
-  margin-left: 25%;
-  margin-right: 50%;
+  margin-left: 0%;
 }
 
 img.izquierda {
@@ -80,15 +79,9 @@ img.derecha {
 
 nav{
   background: black;
-  height: 50px;
+  height: 10px;
 }
 
 .item-r{
   float:right
-}
-iframe.izquierda{
-  float: left;
-} 
-iframe.derecha{
-  float: right;
 }
