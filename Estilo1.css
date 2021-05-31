@@ -85,4 +85,9 @@ nav{
 .item-r{
   float:right
 }
-  
+iframe.izquierda{
+  float: left;
+} 
+iframe.derecha{
+  float: right;
+}
