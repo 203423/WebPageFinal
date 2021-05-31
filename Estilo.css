@@ -29,18 +29,6 @@ h1 {
     background-attachment: fixed;
   }
   
-  img.central{
-    margin-left: 0%;
-  }
-  
-  img.izquierda {
-    float: right;
-  }
-  
-  img.derecha {
-    float: right;
-  }
-  
   #menu{
     background-color: black;
   }
@@ -62,13 +50,6 @@ h1 {
     text-decoration:none;
   }
   
-  .logo{
-    font-weight: bold;
-    padding: 0 40px;
-    line-height: 80px;
-    text-decoration:none;
-    color: white;
-  }
   
   #menu ul li a:hover{
     background-color:#5194ab;
@@ -85,15 +66,18 @@ h1 {
   .item-r{
     float:right
   }
-  iframe.izquierda{
-    float: left;
-  } 
-  iframe.derecha{
-    float: right;
+
+  .primeraS{
+      display: grid;
+      grid-template-columns: 50% 50%;
+
+      gap: 1em;
+      margin-left: 100px;
+      width: 1000px;
+      height: 400px;
+      margin-bottom: 80px;
   }
-  video.izquierda{
-    float: left;
-  }
-  video.derecha{
-    float:right;
+
+  .primeraS{
+      background: lightcoral;
   }
