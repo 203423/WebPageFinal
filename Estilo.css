@@ -3,11 +3,7 @@ h1 {
     text-align: center;
     text-shadow: black;
   }
-  h2 {
-    color: black;
-    margin: 10px;
-    clear: both;
-  }
+  
   p{
     margin: 22px;
     font-size: medium;
@@ -19,8 +15,7 @@ h1 {
     width: 50%;
     margin-left: 25%;
     margin-right: 25%;
-    height: 70%;
-    grid-template-rows: 50% 50%;
+    
   }
   
   body{
@@ -187,6 +182,7 @@ margin-top: 20px;
   height: 350;
   margin-bottom: 10px;
 }
+
 
 
 
