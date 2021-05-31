@@ -92,3 +92,9 @@ iframe.izquierda{
 iframe.derecha{
   float: right;
 }
+video.izquierda{
+  float: left;
+}
+video.derecha{
+  float:right;
+}
