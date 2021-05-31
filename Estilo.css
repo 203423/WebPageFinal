@@ -1,0 +1,99 @@
+h1 {
+    color: navy;
+    text-align: center;
+  }
+  h2 {
+    color: black;
+    margin: 10px;
+    clear: both;
+  }
+  p{
+    margin: 10px;
+    font-size: medium;
+    color: black;
+  }
+  
+  #inicio{
+    background-color: #C8A2C8;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 1300px;
+  }
+  
+  body {
+    font-family: Teko;
+    background-color: lightcoral;
+    background-image: url(ApexBack.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  img.central{
+    margin-left: 0%;
+  }
+  
+  img.izquierda {
+    float: right;
+  }
+  
+  img.derecha {
+    float: right;
+  }
+  
+  #menu{
+    background-color: black;
+  }
+  
+  #menu ul{
+    list-style: none;
+    margin: 0px;
+  }
+  
+  #menu ul li{
+    display: inline-block;
+  }
+  
+  #menu ul li a{
+    font-size: 22px;
+    color: white;
+    display:block;
+    padding: 10px;
+    text-decoration:none;
+  }
+  
+  .logo{
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 80px;
+    text-decoration:none;
+    color: white;
+  }
+  
+  #menu ul li a:hover{
+    background-color:#5194ab;
+    padding: 8px 12px;
+    border-radius: 3px;
+    transition: 0.5s;
+  }
+  
+  nav{
+    background: black;
+    height: 10px;
+  }
+  
+  .item-r{
+    float:right
+  }
+  iframe.izquierda{
+    float: left;
+  } 
+  iframe.derecha{
+    float: right;
+  }
+  video.izquierda{
+    float: left;
+  }
+  video.derecha{
+    float:right;
+  }
