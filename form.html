@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<title>Suscripcion</title>
+<link rel="stylesheet" href="Estilo2.css">
+
+<script language="javascript">
+
+function Subir()
+{
+	var formulario="";
+	var usuario=document.form1.usuario.value;
+	var email=document.form1.email.value;
+	var terminos="";
+	var b=document.form1.terminos.length;
+	for(a=0;a<b;a++)
+	{
+	if (document.form1.terminos[a].checked)
+		terminos+=document.form1.terminos[a].value + "";
+	}
+	if (usuario=="")
+	{
+		alert("Los campos con asterisco son obligatorios!!!");
+		return false;
+	}
+	if (terminos=="No")
+	{
+		alert("No puede crear una cuenta si no acepta los terminos!!");
+		return false;
+	}
+	if (email==""){
+        alert("No puede crear una cuenta sin un correo!!");
+    } 
+	formulario="Usuario: " + usuario + "\n" + "E-mail: " + email;
+	alert(formulario);	
+}
+</script>
+<head>
+    <div id="menu">
+        <ul>
+            <a href="#" class="logo nav-link"></a>
+            <li>
+                <a href="Pagina1.html">
+                    Inicio
+                </a>
+            </li>
+            <li>
+                <a href="Novedades.html">
+                    Novedades
+                </a>
+            </li>
+            <li>
+                <a href="PaseDeBatalla.html">
+                    Pase de Batalla
+                </a>
+            </li>
+            <li>
+                <a href="form.html">
+                    Suscribirse
+                </a>
+            </li>
+            <li class="item-r">
+                <a
+                    href="https://store.steampowered.com/app/1172470/Apex_Legends/?utm_medium=organic&utm_source=franchise_web&utm_content=navlink">
+                    Descarga gratis ahora
+                </a>
+            </li>
+        </ul>
+    </div>
+</head>
+<body>
+<div id="inicio">
+<form name="form1" method="POST" action="">
+<table border="0" cellpadding="0" cellspacing="50px" width="80%">
+<tr>
+	<td width="100%" align="center">Ingresa el usuario: (*)</td>
+	<td width="100%" align="center"><input type="text" name="usuario" id="usuario" value=""></td>
+</tr>
+<tr>
+	<td width="100%" align="center">Ingresa el correo electronico: (*)</td>
+	<td width="100%" align="center"><input type="text" name="email" id="email" value=""></td>
+</tr>
+<tr>
+	<td width="100%" align="center" valign="top">¿Acepta los terminos y condiciones?: (*)</td>
+	<td width="100%">
+	<input type="checkbox" name="terminos" value="Si">Si;
+	<input type="checkbox" name="terminos" value="No">No<br>
+	</td>
+</tr>
+<tr>
+	<td width="50%" align="center">
+		<button type="button" name="boton" onClick="Subir()">Suscribirse</button>
+	</td>
+	<td width="50%" align="center">
+		<button type="reset" name="botonR">Cancelar</button>
+	</td>
+</tr>
+</table>
+<h2>Los campos con asteriscos(*) son obligatorios.</h2>
+</form>
+</div>
+</body>
+</html>
